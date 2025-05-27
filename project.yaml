@@ -32,7 +32,7 @@ advanced:
     headers:
         - { header: '', value: '' }
     cookies: ''
-    custom_js: ''
+    custom_js: "if (window.location.search != '?cookie') {\n  jQuery('#sliding-popup').remove()\n}"
     custom_css: ''
     mock_content:
         - { selector: '', type: title }
