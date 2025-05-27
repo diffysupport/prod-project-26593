@@ -17,6 +17,7 @@ basic:
         - /ueber-uns/geschichte
         - /jobs/stellen
         - /jobs/lehrlinge
+        - /kontakt
     monitoring:
         days: {  }
         type: ''
